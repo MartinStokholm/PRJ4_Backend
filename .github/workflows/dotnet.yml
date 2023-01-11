@@ -8,8 +8,8 @@ on:
   pull_request:
     
 env:
-  Test_Path: ./FATT_backend/APIUnitTesting/APIUnitTesting.csproj
-  Build_Path: ./FATT_backend/
+  Test_Path: ./APIUnitTesting/APIUnitTesting.csproj
+  Build_Path: ./
 
 jobs:
   build:
